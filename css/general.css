@@ -73,6 +73,7 @@ ol > li {
     /* margin: auto; */
     display: inline-block;
     position: relative;
+    box-sizing: border-box;
 }
 
 #p1 {
@@ -85,17 +86,17 @@ ol > li {
     box-sizing: border-box;
     box-shadow: 4px 4px 0px yellow;
     /* position: absolute; */
-    left: 200px;
+    /* left: 200px; */
     /* right: 50px; */
     /* top: 50px; */
-    z-index: 3;
+    /* z-index: 3; */
     
 }
 
 #p2 {
     background: url("../images/canbus.jpg") repeat-y 0px 0px;
     background-size: contain;
-    float: left;
+    /* float: left; */
 }
 
 table {
