@@ -121,3 +121,19 @@ footer {
     padding-bottom: 15px;
         
 }
+
+#container {
+    width: 85%;
+    margin: auto;
+
+}
+
+table {
+    width: 100%;
+
+}
+
+td > img {
+    width: 100%;
+    max-width: 250px;
+}
