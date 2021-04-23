@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body>
+    <header>
+        <h1>Carshop Company</h1>
+        <h2>Contact Us</h2>
+        <hr>
+        <nav>
+            <a class="main_link" id="current_page" href="index.html">Home</a>
+            <a class="main_link" href="products.html">Products</a>
+            <a class="main_link" href="about_us.html">About Us</a>
+            <a class="main_link" href="contact_us.html">Contact Us</a>
+        </nav>
+
+    </header>
+    <form>
+        <label for="firstname">Firstname: </label>
+        <input type="text" name="firstname" id="firstname" placeholder="First name" required>
+        <label for="lastname">Lastname: </label>
+        <input type="text" name="lastname" id="lastname" placeholder="Lastname" required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday">
+        <br>
+        <label for="email_address">Email: </label>
+        <input type="email" name="email_address" id="email_address">
+        <br>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message">This is a message.</textarea>
+        <br>
+        <label for="mode_of_payment">Mode of payment:</label>
+        <input type="radio" name="mode_of_payment" id="credit_card" value="credit_card">
+        <label for="credit_card">Credit Card</label>
+        <input type="radio" name="mode_of_payment" id="cash" value="cash">
+        <label for="cash">Cash</label>
+        <br>
+        <label for="products_of_interest">Products of Interest:</label>
+        <input type="checkbox" name="car_units" id="car_units">
+        <label for="car_units">Car units</label>
+        <input type="checkbox" name="car_services" id="car_services">
+        <label for="car_services">Car services</label>
+        <br>
+        <label for="country_of_origin">Country of Origin: </label>
+        <select name="country_of_origin" id="country_of_origin">
+            <option value="aruba">Aruba</option>
+            <option value="aruba">belize</option>
+            <option value="canada">Canada</option>
+            <option value="dhibouti">Dhibouti</option>
+            <option value="eritrea">Eritrea</option>
+            <option value="france">France</option>
+            <option value="germany">Germany</option>
+            <option value="haiti">Haiti</option>
+        </select>
+        <br>
+        <label for="visited_countries">Visited Countries: </label>
+        <select name="country_of_origin" id="country_of_origin" multiple>
+            <option value="armenia">Armenia</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="congo">Congo</option>
+            <option value="denmark">Denmark</option>
+            <option value="egypt">Egypt</option>
+            <option value="finland">Finland</option>
+            <option value="germany">Germany</option>
+            <option value="haiti">Haiti</option>
+        </select>
+        <br>
+        <label for="file_input">File Input: </label>
+        <input type="file" name="file_input" id="file_input">
+        <br>
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age" min="0" max="150">
+        <br>
+        <button type="submit" value="submit">Submit</button>
+        <br>
+        <input type="button" value="Click me">
+        <br>
+        <input type="image" src="images/blue_dot.png" alt="Blue dot button">
+
+
+    </form> 
+    <footer>
+        Copyright Carshop Company 2021
+    </footer>   
+</body>
+</html>

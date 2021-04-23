@@ -1,0 +1,123 @@
+/* a {
+    background-color: thistle;
+}
+
+span {
+    background-color: peru !important;
+} */
+
+/* div, span {
+    background-color: pink;
+} */
+
+.main_link {
+    background-color: cornsilk;
+    text-decoration: none;
+}
+
+#current_page {
+    background-color: darksalmon;
+}
+
+.main_link:hover {
+    background-color: coral;
+}
+
+/* .main_link:visited {
+    background-color: darkgreen;
+} */
+
+* {
+    font-family: arial, Helvetica, sans-serif;
+}
+
+/* div span {
+    background-color: deepskyblue;
+} */
+
+#firstname:active {
+    background-color: yellow;
+}
+
+h1  {
+    color: #006C4F;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 2px 2px 0px yellow;
+    /* text-indent: -50px; */
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+
+ul > li {
+    list-style-type: square
+}
+
+ol > li {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    list-style: url("../images/blue_dot.png") circle inside;
+}
+
+.about_us_photo {
+    height: 300px;
+    width: 300px;
+    background-color: salmon;
+    padding: 40px;
+    border: 5px solid red;
+    /* border-radius: 500px; */
+    margin: 70px;
+    /* margin: auto; */
+    display: inline-block;
+    position: relative;
+}
+
+#p1 {
+    background-image: url("../images/N-box.jpg");
+    background-repeat: no-repeat;
+    /* background-position: 100px 150px; */
+    background-attachment: scroll;
+    background-size: contain;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 0px yellow;
+    /* position: absolute; */
+    left: 200px;
+    /* right: 50px; */
+    /* top: 50px; */
+    z-index: 3;
+    
+}
+
+#p2 {
+    background: url("../images/canbus.jpg") repeat-y 0px 0px;
+    background-size: contain;
+    float: left;
+}
+
+table {
+    empty-cells: hide;
+    /* border-spacing: 10px; */
+    border-collapse: separate;
+}
+
+#imga {
+    float: left;
+}
+
+#imgp { 
+    clear: left;
+}
+
+footer {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding-top: 15px;
+    padding-bottom: 15px;
+        
+}
